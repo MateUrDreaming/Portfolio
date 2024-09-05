@@ -10,7 +10,7 @@ import React from 'react';
 
 const hero = () => {
     return (
-    <section className='mb-5 max-h-[100vh]' id='home'>
+    <section className='mb-5 min-h-[89vh]' id='home'>
         <div className="container flex flex-wrap items-center justify-center mx-auto mb-10 pd:flex-row">
             <div className="mb-5 lg:mb-0 lg:w-1/2">
                 <TextGenerateEffect words={title.header}/>
@@ -39,21 +39,19 @@ const hero = () => {
             <div className="flex flex-col items-center justify-center gap-5 mt-10 md:flex-row">
                 {testimonials.map((testimonial, index) => (
                     <React.Fragment key={index}>
-                            <Card className="min-w-[300px] max-w-[400px]  md:h-[250px] sm:h-[400px]">
+                            <Card className="min-w-[300px] max-w-[400px] lg:h-[250px] md:h-[300px] sm:h-[400px]">
                                 <CardHeader>
                                     <div className='flex flex-row gap-1 md:text-medium sm:text-sm'>
                                         <p>{`${testimonial.name} on`}</p>
                                         <p className='text-primary'>{`${testimonial.date}`}</p>
                                     </div>
                                 </CardHeader>
-                                <CardBody className="gap-3 lg:text-medium md:text-small sm:text-xs">
+                                <CardBody className="gap-3 lg:text-medium md:text-medium sm:text-s">
                                     <p>{testimonial.quote}</p>
                                 </CardBody>
                             </Card>
                     </React.Fragment>
                 ))}
-                
-
             </div>
         </div>
     </section>

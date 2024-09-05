@@ -1,8 +1,8 @@
-# Next.js & NextUI Template
+# Motivation
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+This is my portfolio website, to showcasing my skills, projects, and experience in Data science, Cloud, QA and Software Engineering. Feel free to explore and learn more about my work to see how I've contributed to the digital space so far! 
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+
 
 ## Technologies Used
 
