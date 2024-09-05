@@ -93,7 +93,7 @@ export const InfiniteMovingCards = ({
         {items.map((item) => (
           <li
             key={item.name}
-            className="w-[350px] max-w-full relative rounded-2xl bg-primary-200 dark:bg-[#04071d] border-2 border-primary-500 flex-shrink-0 px-8 py-6 md:w-[450px]"
+            className="w-[350px] max-w-full relative rounded-2xl bg-slate-100 dark:bg-neutral-950 flex-shrink-0 px-8 py-6 md:w-[450px]"
             
           >
             <blockquote>
@@ -101,15 +101,15 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               />
-              <span className=" relative z-20 text-sm leading-[1.6] dark:text-[#e1e4f7] text-[#04071d] font-normal">
+              <span className=" relative z-20 text-justify text-sm leading-[1.6] dark:text-slate-100 text-neutral-950 font-normal">
                 {item.quote}
               </span>
               <div className="relative z-20 flex flex-row items-center mt-6">
                 <span className="flex flex-col gap-1">
-                  <span className=" text-sm leading-[1.6] dark:text-[#e1e4f7] text-[#04071d] font-bold">
+                  <span className=" text-sm leading-[1.6] text-[#006fee] font-bold">
                     {item.name}
                   </span>
-                  <span className=" text-sm leading-[1.6] dark:text-[#e1e4f7] text-[#04071d] font-bold">
+                  <span className=" text-sm leading-[1.6] text-[#006fee] font-bold">
                     {item.date}
                   </span>
                 </span>
