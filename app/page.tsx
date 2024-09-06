@@ -1,14 +1,12 @@
 import Hero from "@/components/hero";
 import Education from "@/components/education";
-import Work from "@/components/work";
-import Projects from "@/components/projects";
+import Footer from "@/components/footer";
 export default function Home() {
   return (
     <>
       <Hero />
       <Education />
-      <Work />
-      <Projects />
+      <Footer />
     </>
   );
 }

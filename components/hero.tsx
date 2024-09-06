@@ -16,9 +16,11 @@ const hero = () => {
                 <TextGenerateEffect words={title.header}/>
                 <p className='max-w-2xl mb-0 text-justify lg:text-xl'>{title.subHeader}</p>
                 <div className="flex justify-center mt-10 mb-5">
-                    <Button color="primary" type='button' variant="shadow">
-                        Download CV
-                    </Button>
+                    <a download="cv" href="/pdf/parinkasabiacv.pdf">
+                        <Button color="primary" type='button' variant="shadow" >
+                            Download CV
+                        </Button>
+                    </a>
                 </div>
             </div>
             <div className="lg:w-1/2 relative w-[300px] h-[300px] lg:h-[400px]">
